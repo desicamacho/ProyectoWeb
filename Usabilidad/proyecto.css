@@ -28,11 +28,6 @@
                     video {
                         width: 300px;
                     }
-                    
-                    iframe {
-                        width: 300px;
-                        height: 150px;
-                    }
                     /*parte central del nav*/
                     
                     .grid-container-nav {
@@ -91,7 +86,6 @@
                         .grid-container-nav {
                             grid-template-columns: auto;
                             text-align: center;
-                            width: 100%;
                         }
                         .nav-buscador form {
                             width: 200px;
@@ -401,7 +395,6 @@
                     
                     @media(max-width:1000px) {
                         .grid-container-iconos {
-                            width: 100%;
                             margin-left: 0%;
                             margin-right: 0%;
                             margin-top: -5%;
@@ -434,11 +427,10 @@
                     #grid-tabla-productos {
                         display: grid;
                         grid-template-areas: "header header header";
-                        width: 900px;
                         text-align: left;
                         font-family: 'Rajdhani', sans-serif;
                         color: #333333;
-                        margin-left: 25%;
+                        margin-left: 20%;
                     }
                     
                     .next-producto,
@@ -495,7 +487,7 @@
                     }
                     
                     .img-estrellas {
-                        width: 15%;
+                        width: 40px;
                         position: relative;
                         top: -7%;
                     }
@@ -531,25 +523,24 @@
                         margin-right: 10%;
                         margin-top: 2%;
                         flex-wrap: wrap;
-                        width: 80%;
+                        width: 1100px;
                         display: flex;
                         justify-content: center;
                     }
                     
                     .flex-container-marcas img {
-                        width: 70%;
-                        height: 70%;
+                        width: 150px;
+                        height: 150px;
                     }
                     
                     .flex-container-marcas div {
-                        padding: -10%;
+                        padding: 1%;
                     }
                     
                     @media(max-width:1219px) {
                         .flex-container-marcas {
                             margin-left: 2%;
                             margin-right: 0%;
-                            width: 100%;
                         }
                     }
                     
@@ -571,9 +562,6 @@
                         }
                         .flex-container-marcas {
                             margin-left: 4%;
-                        }
-                        .img-fondo-marcas {
-                            width: 120%;
                         }
                     }
                     /*Departamentos*/
@@ -685,7 +673,6 @@
                     @media(max-width:1027px) {
                         .grid-contenedor-productos {
                             margin-left: 0%;
-                            width: 100%;
                         }
                         .secciones-productos {
                             margin-left: 0%;
@@ -863,16 +850,6 @@
                         #articulos {
                             margin-left: 0%;
                         }
-                        .item2 img,
-                        .item3 img,
-                        .item4 img {
-                            width: 100%;
-                        }
-                        .item2,
-                        .item3,
-                        .item4 {
-                            width: 90%;
-                        }
                     }
                     /*PIE*/
                     
@@ -965,17 +942,7 @@
                             flex-wrap: wrap;
                         }
                         .box1 {
-                            width: 100%;
                             font-family: 'Merriweather Sans', sans-serif;
-                        }
-                        .box2 {
-                            width: 100%;
-                        }
-                        .box3 {
-                            width: 100%;
-                        }
-                        .box4 {
-                            width: 100%;
                         }
                         /*parte inferior del pie*/
                         .box-container {
@@ -991,10 +958,6 @@
                         }
                         .flex-container>div {
                             font-size: 10px;
-                        }
-                        .flex-container img {
-                            width: 70%;
-                            height: 40%;
                         }
                         /*Seleccion de productos*/
                         .secciones-productos {
@@ -1016,7 +979,6 @@
                         .item2,
                         .item3,
                         .item4 {
-                            width: 60%;
                             margin-left: 25%;
                             text-align: center;
                         }
