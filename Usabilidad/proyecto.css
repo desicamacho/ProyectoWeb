@@ -33,7 +33,7 @@
                     .grid-container-nav {
                         display: grid;
                         grid-template-columns: auto auto auto;
-                        width: 1350px;
+                        width: 1000px;
                         margin: 0 auto;
                     }
                     
@@ -76,22 +76,14 @@
                         font-weight: bold;
                     }
                     
-                    @media (max-width: 1088px) {
-                        .grid-container-nav {
-                            margin-left: 5%;
-                        }
-                    }
-                    
                     @media(max-width:926px) {
                         .grid-container-nav {
                             grid-template-columns: auto;
-                            text-align: center;
                         }
                         .nav-buscador form {
                             width: 200px;
                             height: 30px;
                             position: relative;
-                            left: 35%;
                         }
                         .nav-buscador form input:first-child {
                             margin-top: 10px;
@@ -103,12 +95,6 @@
                             float: right;
                             width: 30px;
                             border: 5px solid #fc5a34;
-                        }
-                    }
-                    
-                    @media(max-width:976px) {
-                        .grid-container-nav {
-                            margin-left: 0%;
                         }
                     }
                     /*parte superior del nav*/
@@ -142,7 +128,6 @@
                     @media(max-width: 955px) {
                         .nav-superior {
                             height: 60px;
-                            text-align: center;
                         }
                         .nav-superior-parte-derecha ul {
                             position: static;
@@ -155,7 +140,6 @@
                     @media(max-width:441px) {
                         .nav-superior {
                             height: 120px;
-                            text-align: center;
                         }
                         .nav-superior-parte-derecha li,
                         .nav-superior-parte-izquierda li {
@@ -303,21 +287,11 @@
                         text-align: center;
                     }
                     
-                    @media(max-width:890px) {
-                        .contenedor-imagen-buscador {
-                            top: -100px;
-                            text-align: center;
-                        }
-                    }
-                    
                     @media(max-width:682px) {
                         h1 {
                             font-family: 'Rajdhani', sans-serif;
                             color: #e8e6e7;
                             font-size: 22px;
-                        }
-                        .contenedor-imagen-buscador {
-                            top: -10px;
                         }
                         #cars:enabled {
                             font-size: 10px;
@@ -350,26 +324,29 @@
                             font-size: 6px;
                         }
                         .contenedor-imagen-buscador {
-                            top: 50px;
+                            width: 100x;
+                            position: relative;
+                            top: -180px;
+                            text-align: center;
                         }
                         #cars:enabled {
                             font-size: 8px;
-                            width: 70px;
-                            height: 10px;
+                            width: 100px;
+                            height: 20px;
                         }
                         #model:enabled {
                             font-size: 8px;
-                            width: 70px;
-                            height: 10px;
+                            width: 100px;
+                            height: 20px;
                         }
                         #year:optional {
                             font-size: 8px;
-                            width: 70px;
-                            height: 10px;
+                            width: 100px;
+                            height: 20px;
                         }
                         #boton-buscar {
-                            width: 40px;
-                            height: 10px;
+                            width: 50px;
+                            height: 20px;
                             font-size: 8px;
                             text-align: center;
                         }
@@ -379,7 +356,7 @@
                     .grid-container-iconos {
                         display: grid;
                         grid-template-columns: auto auto auto auto auto auto auto auto;
-                        width: 1000px;
+                        width: 900px;
                         margin-left: 20%;
                         margin-right: 20%;
                         margin-top: -3%;
@@ -397,20 +374,17 @@
                         .grid-container-iconos {
                             margin-left: 0%;
                             margin-right: 0%;
-                            margin-top: -5%;
-                        }
-                    }
-                    
-                    @media(max-width:678px) {
-                        .grid-container-iconos {
                             grid-template-columns: auto auto auto auto;
                             margin-top: 5%;
+                            width: 600px;
                         }
                     }
                     
                     @media(max-width:432px) {
                         .grid-container-iconos {
-                            margin-top: 25%;
+                            margin-top: 15%;
+                            grid-template-columns: auto auto;
+                            width: 200px;
                         }
                     }
                     /*productos*/
