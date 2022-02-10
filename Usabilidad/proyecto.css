@@ -580,7 +580,7 @@
                     
                     .flex-container {
                         display: flex;
-                        padding-left: 10%;
+                        padding-left: 15%;
                         padding-right: 10%;
                         padding-top: 10%;
                     }
@@ -592,14 +592,14 @@
                     }
                     
                     .flex-container img {
-                        width: 90%;
-                        height: 60%;
+                        width: 160px;
+                        height: 120px;
                     }
                     /* Seleccion Productos */
                     
                     .secciones-productos {
                         font-size: 18px;
-                        width: 50%;
+                        width: 1200px;
                         margin-left: 15%;
                     }
                     
@@ -651,7 +651,7 @@
                         margin-top: 40px;
                         display: grid;
                         grid-template-columns: auto auto auto auto;
-                        width: 70%;
+                        width: 1000px;
                     }
                     
                     .grid-contenedor-productos img:first-child {
@@ -758,7 +758,7 @@
                     }
                     
                     .wrapper {
-                        width: 100%;
+                        width: 1350px;
                     }
                     
                     .slider {
@@ -772,13 +772,13 @@
                     }
                     
                     .slide {
-                        width: 100%;
+                        width: 1350px;
                         position: relative;
                         left: 0%;
                     }
                     
                     .slide img {
-                        width: 100%;
+                        width: 1350px;
                     }
                     
                     .slider-controler {
@@ -877,7 +877,7 @@
                     /*PIE*/
                     
                     .logo-web {
-                        width: 90%;
+                        width: 300px;
                     }
                     
                     .contenedor-pie {
@@ -897,21 +897,21 @@
                     }
                     
                     .box1 {
-                        width: 28%;
+                        width: 310px;
                         font-family: 'Merriweather Sans', sans-serif;
                     }
                     
                     .box2 {
-                        width: 12%;
+                        width: 200px;
                     }
                     
                     .box3 {
                         padding-top: 6%;
-                        width: 12%;
+                        width: 200px;
                     }
                     
                     .box4 {
-                        width: 15%;
+                        width: 200px;
                         padding-top: 40px;
                     }
                     
