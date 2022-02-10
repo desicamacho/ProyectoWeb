@@ -3,8 +3,8 @@
                     #logo-propio {
                         position: fixed;
                         margin-top: -5%;
-                        left: 90%;
-                        width: 6%;
+                        right: 20px;
+                        width: 50px;
                     }
                     /*@media(max-width:1218px) {
                     #logo-propio {
@@ -42,8 +42,8 @@
                     }
                     
                     .nav-buscador form {
-                        width: 70%;
-                        height: 50%;
+                        width: 400px;
+                        height: 50px;
                         border: 1px solid #fc5a34;
                         margin-top: 5%;
                     }
@@ -51,7 +51,7 @@
                     .nav-buscador form input:first-child {
                         margin-top: 4%;
                         margin-left: 2%;
-                        width: 50%;
+                        width: 200px;
                         border: 0px;
                         color: #999999;
                         font-family: 'Merriweather Sans', sans-serif;
@@ -60,7 +60,7 @@
                     
                     .nav-buscador form input:last-child {
                         float: right;
-                        width: 16%;
+                        width: 54px;
                         border: 11px solid #fc5a34;
                     }
                     
@@ -118,7 +118,7 @@
                     /*parte superior del nav*/
                     
                     .nav-superior {
-                        width: 100%;
+                        width: 1300px;
                         height: 30px;
                         background-color: #eeeeee;
                         color: #464646;
