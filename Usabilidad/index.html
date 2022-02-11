@@ -6,28 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="proyecto.css" />
-    <ifmodule mod_expires.c>
- ExpiresActive On
- ExpiresDefault A3600
-
- <FilesMatch ".(gif|jpg|jpeg|png|swf)$">
- # 2 weeks
- ExpiresDefault A604800
- Header append Cache-Control "public"
- </FilesMatch>
-
- <FilesMatch ".(xml|txt|html)$">
- # 2 hours
- ExpiresDefault A604800
- Header append Cache-Control "public"
- </FilesMatch>
-
- <FilesMatch ".(js|css)$">
- # 3 days
- ExpiresDefault A604800
- Header append Cache-Control "public"
- </FilesMatch>
-</ifmodule>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
